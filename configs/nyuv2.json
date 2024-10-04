@@ -1,0 +1,31 @@
+{
+    "model_name": "4_Model_segb2R_mobilev2D_nofuse",
+    "type": " ",
+    "dataset": "nyuv2",
+    "cuda": "cuda:0",
+    "root": "/home/yangenquan/Disk/aabyby2/NYUv2",
+    "n_classes": 41,
+    "id_unlabel": 0,
+    "brightness": 0.2,
+    "contrast": 0.4,
+    "saturation": 0.6,
+    "p": 0.25,
+    "scales_range": "0.9 1.1",
+    "crop_size": "480 640",
+    "eval_scales": "0.5 0.75 1.0 1.25 1.5 1.75",
+    "eval_flip": "true",
+
+
+    "ims_per_gpu": 6,
+    "num_workers": 4,
+
+    "lr_start": 5e-4,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "lr_power": 0.9,
+    "epochs": 100,
+
+    "loss": "crossentropy",
+    "class_weight": "enet"
+}
+
